@@ -1,0 +1,172 @@
+{
+  "name": "SymboTalk AI - Universal Communication Bridge",
+  "short_name": "SymboTalk AI",
+  "description": "Bridging spoken language and visual actions for inclusive communication",
+  "version": "1.0.0",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#6366f1",
+  "theme_color": "#6366f1",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": [
+    "accessibility",
+    "communication",
+    "education",
+    "health",
+    "social",
+    "utilities"
+  ],
+  "icons": [
+    {
+      "src": "assets/icon-72.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "assets/icon-96.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "assets/icon-128.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "assets/icon-144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "assets/icon-152.png",
+      "sizes": "152x152",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "assets/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "assets/icon-384.png",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "assets/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "assets/screenshot-mobile.png",
+      "sizes": "390x844",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "SymboTalk AI on mobile device"
+    },
+    {
+      "src": "assets/screenshot-desktop.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "SymboTalk AI on desktop"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Speech to Action",
+      "short_name": "Speech",
+      "description": "Convert speech to visual actions",
+      "url": "/?mode=speech-to-action",
+      "icons": [
+        {
+          "src": "assets/icon-96.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Action to Speech",
+      "short_name": "Gesture",
+      "description": "Convert gestures to spoken words",
+      "url": "/?mode=action-to-speech",
+      "icons": [
+        {
+          "src": "assets/icon-96.png",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false,
+  "edge_side_panel": {
+    "preferred_width": 400
+  },
+  "launch_handler": {
+    "client_mode": "navigate-existing"
+  },
+  "handle_links": "preferred",
+  "protocol_handlers": [
+    {
+      "protocol": "web+symbotalk",
+      "url": "/?action=%s"
+    }
+  ],
+  "file_handlers": [
+    {
+      "action": "/",
+      "accept": {
+        "text/plain": [".txt"],
+        "application/json": [".json"]
+      }
+    }
+  ],
+  "share_target": {
+    "action": "/",
+    "method": "POST",
+    "enctype": "multipart/form-data",
+    "params": {
+      "title": "title",
+      "text": "text",
+      "url": "url"
+    }
+  },
+  "permissions": [
+    "microphone",
+    "camera",
+    "notifications",
+    "background-sync"
+  ],
+  "features": [
+    "Cross Platform",
+    "Offline Support",
+    "Speech Recognition",
+    "Gesture Recognition",
+    "Accessibility",
+    "PWA"
+  ],
+  "author": {
+    "name": "SymboTalk AI Team",
+    "email": "contact@symbotalk.ai",
+    "url": "https://symbotalk.ai"
+  },
+  "homepage_url": "https://symbotalk.ai",
+  "developer": {
+    "name": "SymboTalk AI Team",
+    "url": "https://symbotalk.ai"
+  }
+} 

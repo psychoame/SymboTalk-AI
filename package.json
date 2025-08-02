@@ -1,0 +1,61 @@
+{
+  "name": "symbotalk-ai",
+  "version": "1.0.0",
+  "description": "Universal Communication Bridge - Bridging spoken language and visual actions for inclusive communication",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "serve": "npx serve .",
+    "dev": "python -m http.server 8000",
+    "build": "echo 'No build step required - static files only'",
+    "test": "echo 'No tests specified'",
+    "lint": "echo 'No linting configured'"
+  },
+  "keywords": [
+    "accessibility",
+    "communication",
+    "speech-recognition",
+    "gesture-recognition",
+    "pwa",
+    "offline",
+    "inclusive",
+    "assistive-technology",
+    "web-app",
+    "javascript"
+  ],
+  "author": {
+    "name": "SymboTalk AI Team",
+    "email": "contact@symbotalk.ai",
+    "url": "https://symbotalk.ai"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/SymboTalk-AI.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/SymboTalk-AI/issues"
+  },
+  "homepage": "https://symbotalk.ai",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "devDependencies": {
+    "serve": "^14.2.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ],
+  "pwa": {
+    "name": "SymboTalk AI",
+    "short_name": "SymboTalk AI",
+    "description": "Universal Communication Bridge",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#6366f1",
+    "theme_color": "#6366f1"
+  }
+} 
