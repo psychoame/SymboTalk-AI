@@ -46,11 +46,14 @@ contract_analysis/
 
 ### Installation
 
-1. **Install Dependencies**
+1. **Install Core Dependencies (Required)**
    ```bash
    cd contract_analysis
-   pip install -r requirements.txt
+   # Install only the required dependencies for the current implementation
+   pip install numpy pandas scikit-learn PyPDF2 python-docx pdfplumber flask flask-cors regex
    ```
+
+   **Note**: The current implementation uses pattern-based NLP and does NOT require the ML libraries (torch, transformers, nltk, spacy) listed in requirements.txt. Those are commented out and reserved for future ML enhancements.
 
 2. **Verify Installation**
    ```bash

@@ -5,8 +5,15 @@
 ### 1. Install Dependencies (1 minute)
 ```bash
 cd contract_analysis
-pip install numpy pandas scikit-learn
+
+# Install minimal required dependencies (current implementation)
+pip install -r requirements-minimal.txt
+
+# OR install from requirements.txt (same core dependencies)
+pip install -r requirements.txt
 ```
+
+**Note**: The current implementation uses pattern-based NLP and does NOT require ML libraries like torch, transformers, or nltk. Those are commented out in requirements.txt for future enhancements.
 
 ### 2. Test the System (2 minutes)
 ```bash
