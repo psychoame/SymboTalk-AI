@@ -1,0 +1,115 @@
+MASTER SERVICES AGREEMENT
+
+This Master Services Agreement ("Agreement") is entered into as of January 1, 2024 ("Effective Date") by and between TechCorp Solutions, Inc. ("Provider") and Enterprise Client LLC ("Client").
+
+ARTICLE 1: SCOPE OF SERVICES
+
+1.1 Services Description
+Provider shall provide software development, maintenance, and support services as detailed in individual Statements of Work ("SOW"). Each SOW shall be incorporated into this Agreement by reference upon execution by both parties.
+
+1.2 Service Obligations
+Provider shall perform all services in a professional and workmanlike manner consistent with industry standards. Provider must maintain adequate staff and resources to meet service delivery requirements.
+
+ARTICLE 2: TERM AND TERMINATION
+
+2.1 Initial Term
+This Agreement shall commence on the Effective Date and continue for an initial term of two (2) years unless earlier terminated in accordance with this Article 2.
+
+2.2 Termination for Convenience
+Either party may terminate this Agreement for convenience upon ninety (90) days' written notice to the other party. Client shall pay for all services rendered through the effective date of termination.
+
+2.3 Termination for Cause
+Either party may terminate this Agreement immediately upon written notice if the other party:
+(a) Materially breaches any term of this Agreement and fails to cure such breach within thirty (30) days of written notice;
+(b) Becomes insolvent or files for bankruptcy;
+(c) Ceases to conduct business in the normal course.
+
+2.4 Effect of Termination
+Upon termination, Provider shall deliver all work product and Client materials. Client shall pay all outstanding fees within fifteen (15) days. Sections 3, 4, 5, and 6 shall survive termination.
+
+ARTICLE 3: COMPENSATION AND PAYMENT
+
+3.1 Fees
+Client shall pay Provider the fees specified in each applicable SOW. Unless otherwise specified, fees are due within thirty (30) days of invoice date.
+
+3.2 Late Payment
+Late payments shall accrue interest at 1.5% per month or the maximum rate permitted by law, whichever is less.
+
+ARTICLE 4: INDEMNIFICATION
+
+4.1 Provider Indemnification
+Provider shall defend, indemnify, and hold harmless Client from any claims arising from: (a) Provider's gross negligence or willful misconduct; (b) Provider's breach of this Agreement; (c) infringement of third-party intellectual property rights by Provider's services.
+
+4.2 Indemnification Cap
+Provider's maximum aggregate liability for indemnification under Section 4.1 shall not exceed two times (2x) the total fees paid by Client to Provider in the twelve (12) months preceding the claim, except for claims arising from intellectual property infringement or Provider's willful misconduct, which shall not be subject to this cap.
+
+4.3 Client Indemnification
+Client shall defend, indemnify, and hold harmless Provider from claims arising from: (a) Client's misuse of services; (b) Client's breach of this Agreement; (c) Client-provided content or materials.
+
+4.4 Excluded Damages
+EXCEPT FOR INDEMNIFICATION OBLIGATIONS, NEITHER PARTY SHALL BE LIABLE FOR INDIRECT, INCIDENTAL, CONSEQUENTIAL, SPECIAL, OR PUNITIVE DAMAGES, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+
+ARTICLE 5: SERVICE LEVEL AGREEMENT
+
+5.1 Uptime Commitment
+Provider commits to maintain 99.9% uptime for all production services, calculated monthly. Uptime excludes scheduled maintenance windows announced at least seventy-two (72) hours in advance.
+
+5.2 Measurement Method
+Uptime shall be measured using Provider's monitoring tools. Provider shall provide monthly uptime reports within five (5) business days of month end.
+
+5.3 Service Credits
+If Provider fails to meet the 99.9% uptime commitment in any calendar month, Client shall be entitled to service credits as follows:
+- Uptime 99.5% to 99.9%: 5% credit
+- Uptime 99.0% to 99.5%: 10% credit
+- Uptime below 99.0%: 20% credit
+
+Service credits are Client's sole remedy for uptime failures and shall be applied to the next monthly invoice.
+
+5.4 Response Times
+Provider shall respond to support requests according to the following priority levels:
+- Critical (system down): 1 hour response, 4 hour resolution target
+- High (major function impaired): 4 hour response, 24 hour resolution target
+- Medium (minor issue): 1 business day response, 5 business day resolution target
+- Low (general inquiry): 2 business days response, best effort resolution
+
+5.5 Support Availability
+Provider shall maintain support availability from 8:00 AM to 8:00 PM Eastern Time, Monday through Friday, excluding federal holidays. Emergency on-call support available 24/7 for Critical priority issues.
+
+ARTICLE 6: CONFIDENTIALITY
+
+6.1 Confidential Information
+Each party shall maintain in confidence all Confidential Information of the other party. "Confidential Information" means all non-public information marked as confidential or that reasonably should be considered confidential.
+
+6.2 Obligations
+The receiving party must: (a) use Confidential Information only for purposes of this Agreement; (b) limit disclosure to employees with a need to know; (c) protect Confidential Information using at least the same degree of care used for its own confidential information, but no less than reasonable care.
+
+6.3 Exceptions
+Confidential Information does not include information that: (a) is or becomes publicly available through no breach; (b) was known prior to disclosure; (c) is independently developed; (d) is received from a third party without restriction.
+
+ARTICLE 7: GENERAL PROVISIONS
+
+7.1 Entire Agreement
+This Agreement, together with all SOWs, constitutes the entire agreement between the parties and supersedes all prior agreements and understandings.
+
+7.2 Amendments
+This Agreement may only be amended by written instrument signed by authorized representatives of both parties.
+
+7.3 Governing Law
+This Agreement shall be governed by the laws of the State of Delaware, without regard to conflicts of law principles.
+
+7.4 Notice
+All notices must be in writing and delivered to the addresses specified below or as subsequently updated by written notice.
+
+IN WITNESS WHEREOF, the parties have executed this Agreement as of the Effective Date.
+
+PROVIDER: TechCorp Solutions, Inc.
+By: _______________________
+Name: John Smith
+Title: Chief Executive Officer
+Date: January 1, 2024
+
+CLIENT: Enterprise Client LLC  
+By: _______________________
+Name: Jane Doe
+Title: Chief Procurement Officer
+Date: January 1, 2024

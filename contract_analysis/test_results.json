@@ -1,0 +1,179 @@
+{
+  "document_id": "test_sample_msa",
+  "metadata": {
+    "filename": "sample_msa.txt",
+    "total_pages": 1,
+    "word_count": 942,
+    "processing_time": 0.015816688537597656
+  },
+  "clauses": [
+    {
+      "clause_type": "termination",
+      "page_number": 1,
+      "confidence": 1.0,
+      "text": "AND TERMINATION 2.1 Initial Term This Agreement shall commence on the Effective Date and continue for an initial term of two (2) years unless earlier terminated in accordance with this Article 2. 2.2 ",
+      "obligations_count": 4,
+      "is_deviation": true
+    },
+    {
+      "clause_type": "indemnity",
+      "page_number": 1,
+      "confidence": 1.0,
+      "text": "ified, fees are due within thirty (30) days of invoice date. 3.2 Late Payment Late payments shall accrue interest at 1.5% per month or the maximum rate permitted by law, whichever is less. ARTICLE 4: ",
+      "obligations_count": 5,
+      "is_deviation": true
+    },
+    {
+      "clause_type": "indemnity",
+      "page_number": 1,
+      "confidence": 1.0,
+      "text": "nduct; (b) Provider's breach of this Agreement; (c) infringement of third-party intellectual property rights by Provider's services. 4.2 Indemnification Cap Provider's maximum aggregate liability for ",
+      "obligations_count": 3,
+      "is_deviation": true
+    },
+    {
+      "clause_type": "indemnity",
+      "page_number": 1,
+      "confidence": 0.9500000000000001,
+      "text": "and hold harmless Provider from claims arising from: (a) Client's misuse of services; (b) Client's breach of this Agreement; (c) Client-provided content or materials. 4.4 Excluded Damages EXCEPT FOR I",
+      "obligations_count": 2,
+      "is_deviation": true
+    },
+    {
+      "clause_type": "sla",
+      "page_number": 1,
+      "confidence": 0.9,
+      "text": "PT FOR INDEMNIFICATION OBLIGATIONS, NEITHER PARTY SHALL BE LIABLE FOR INDIRECT, INCIDENTAL, CONSEQUENTIAL, SPECIAL, OR PUNITIVE DAMAGES, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. ARTICLE 5: ",
+      "obligations_count": 4,
+      "is_deviation": false
+    },
+    {
+      "clause_type": "sla",
+      "page_number": 1,
+      "confidence": 0.9,
+      "text": "Uptime shall be measured using Provider's monitoring tools. Provider shall provide monthly uptime reports within five (5) business days of month end. 5.3 Service Credits If Provider fails to meet the ",
+      "obligations_count": 4,
+      "is_deviation": true
+    },
+    {
+      "clause_type": "sla",
+      "page_number": 1,
+      "confidence": 0.8500000000000001,
+      "text": "Support Availability Provider shall maintain support availability from 8:00 AM to 8:00 PM Eastern Time, Monday through Friday, excluding federal holidays. Emergency on-call support available 24/7 for ",
+      "obligations_count": 4,
+      "is_deviation": true
+    }
+  ],
+  "summary": {
+    "overview": {
+      "total_clauses": 7,
+      "clause_breakdown": {
+        "termination": 1,
+        "indemnity": 3,
+        "sla": 3
+      },
+      "deviations_found": 6,
+      "deviation_breakdown": {
+        "termination": 1,
+        "indemnity": 3,
+        "sla": 2
+      }
+    },
+    "key_obligations": {
+      "termination": [
+        "[MUST] AND TERMINATION 2.1 Initial Term This Agreement shall commence on the Effective Date and continue for an initial term of two (2) years unless earlier terminated in accordance with this Article 2",
+        "[MUST] Client shall pay for all services rendered through the effective date of termination"
+      ],
+      "indemnity": [
+        "[MUST] 3.2 Late Payment Late payments shall accrue interest at 1.5% per month or the maximum rate permitted by law, whichever is less",
+        "[MUST] ARTICLE 4: INDEMNIFICATION 4.1 Provider Indemnification Provider shall defend, indemnify, and hold harmless Client from any claims arising from: (a) Provider's gross negligence or willful misconduct",
+        "[MUST] 4.2 Indemnification Cap Provider's maximum aggregate liability for indemnification under Section 4.1 shall not exceed two times (2x) the total fees paid by Client to Provider in the twelve (12) months",
+        "[PROHIBITED] 4.2 Indemnification Cap Provider's maximum aggregate liability for indemnification under Section 4.1 shall not exceed two times (2x) the total fees paid by Client to Provider in the twelve (12) months",
+        "[MUST] 4.2 Indemnification Cap Provider's maximum aggregate liability for indemnification under Section 4.1 shall not exceed two times (2x) the total fees paid by Client to Provider in the twelve (12) months preceding the claim, except for claims arising from intellectual property infringement or Provider's willful misconduct, which shall not be subject to this cap",
+        "[PROHIBITED] 4.2 Indemnification Cap Provider's maximum aggregate liability for indemnification under Section 4.1 shall not exceed two times (2x) the total fees paid by Client to Provider in the twelve (12) months preceding the claim, except for claims arising from intellectual property infringement or Provider's willful misconduct, which shall not be subject to this cap",
+        "[MUST] 4.3 Client Indemnification Client shall defend, indemnify, and hold harmless Provider from claims arising from: (a) Client's misuse of services",
+        "[MUST] 4.4 Excluded Damages EXCEPT FOR INDEMNIFICATION OBLIGATIONS, NEITHER PARTY SHALL BE LIABLE FOR INDIRECT, INCIDENTAL, CONSEQUENTIAL, SPECIAL, OR PUNITIVE DAMAGES, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES",
+        "[MUST] 5.2 Measurement Method Uptime shall be measured using Provider's monitoring tools"
+      ],
+      "sla": [
+        "[MUST] PT FOR INDEMNIFICATION OBLIGATIONS, NEITHER PARTY SHALL BE LIABLE FOR INDIRECT, INCIDENTAL, CONSEQUENTIAL, SPECIAL, OR PUNITIVE DAMAGES, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES",
+        "[MUST] 5.2 Measurement Method Uptime shall be measured using Provider's monitoring tools",
+        "[MUST] Provider shall provide monthly uptime reports within five (5) business days of month end",
+        "[MUST] 5.3 Service Credits If Provider fails to meet the 99.9% uptime commitment in any calendar month, Client shall be",
+        "[MUST] Uptime shall be measured using Provider's monitoring tools",
+        "[MUST] Provider shall provide monthly uptime reports within five (5) business days of month end",
+        "[MUST] 5.3 Service Credits If Provider fails to meet the 99.9% uptime commitment in any calendar month, Client shall be entitled to service credits as follows: - Uptime 99.5% to 99.9%: 5% credit - Uptime 99.0% to 99.5%: 10% credit - Uptime below 99.0%: 20% credit Service credits are Client's sole remedy for uptime failures and shall be applied to the next monthly invoice",
+        "[MUST] 5.4 Response Times Provider shall respond to support requests according to the following priority levels: - Critical (system down): 1 hour response, 4 hour resolution target - High (major functi",
+        "[MUST] Support Availability Provider shall maintain support availability from 8:00 AM to 8:00 PM Eastern Time, Monday through Friday, excluding federal holidays",
+        "[MUST] ARTICLE 6: ITY 6.1  Each party shall maintain in confidence all  of the other party",
+        "[MUST] 6.2 Obligations The receiving party must: (a) use  only for purposes of this Agreement"
+      ]
+    },
+    "risk_areas": [
+      {
+        "type": "termination",
+        "risk_level": "MEDIUM",
+        "description": "Missing elements: notice period, termination cause, effect of termination",
+        "page": 1,
+        "recommendation": "Review termination conditions with legal counsel. Consider negotiating standard notice periods."
+      },
+      {
+        "type": "indemnity",
+        "risk_level": "MEDIUM",
+        "description": "Missing elements: indemnification scope, indemnity cap, excluded damages",
+        "page": 1,
+        "recommendation": "Seek to cap indemnity obligations. Review excluded damages carefully."
+      },
+      {
+        "type": "indemnity",
+        "risk_level": "MEDIUM",
+        "description": "Missing elements: indemnification scope, indemnity cap, excluded damages",
+        "page": 1,
+        "recommendation": "Seek to cap indemnity obligations. Review excluded damages carefully."
+      },
+      {
+        "type": "indemnity",
+        "risk_level": "MEDIUM",
+        "description": "Missing elements: indemnification scope, indemnity cap",
+        "page": 1,
+        "recommendation": "Seek to cap indemnity obligations. Review excluded damages carefully."
+      },
+      {
+        "type": "sla",
+        "risk_level": "MEDIUM",
+        "description": "Missing elements: measurement method",
+        "page": 1,
+        "recommendation": "Ensure service levels are achievable and penalties are reasonable."
+      },
+      {
+        "type": "sla",
+        "risk_level": "MEDIUM",
+        "description": "Missing elements: uptime commitment, measurement method, service credits",
+        "page": 1,
+        "recommendation": "Ensure service levels are achievable and penalties are reasonable."
+      }
+    ],
+    "action_items": [],
+    "deviation_summary": "Found 6 clause(s) with deviations from standard templates:\n- TERMINATION (Page 1): Missing elements: notice period, termination cause, effect of termination\n- INDEMNITY (Page 1): Missing elements: indemnification scope, indemnity cap, excluded damages\n- INDEMNITY (Page 1): Missing elements: indemnification scope, indemnity cap, excluded damages\n- INDEMNITY (Page 1): Missing elements: indemnification scope, indemnity cap\n- SLA (Page 1): Missing elements: measurement method\n... and 1 more deviation(s)"
+  },
+  "metrics": {
+    "termination": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1_score": 0
+    },
+    "indemnity": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1_score": 0
+    },
+    "sla": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1_score": 0
+    },
+    "overall": {
+      "f1_score": 0.0
+    }
+  }
+}

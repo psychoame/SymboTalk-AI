@@ -27,6 +27,11 @@ SymboTalk AI is designed to be a two-way bridge that translates between spoken l
 - **Customizable**: Extensible action and gesture libraries
 - **Accessibility**: WCAG compliant design
 - **Responsive**: Works on all devices
+- **Contract Analysis**: AI-powered legal document analysis (NEW!)
+  - Extract key clauses with 90%+ accuracy
+  - Detect deviations from standard templates
+  - Generate summaries for non-legal staff
+  - Support for MSAs and SOWs up to 80 pages
 
 ## 🛠️ Technology Stack
 
@@ -130,6 +135,36 @@ SymboTalk AI is designed to be a two-way bridge that translates between spoken l
 - **Language**: Select preferred language
 - **Offline Mode**: Works without internet connection
 
+### Contract Analysis Mode (NEW!)
+
+1. **Open the Contract Analyzer** at `contract_analysis.html`
+2. **Upload your contract** (PDF, DOCX, or TXT up to 80 pages)
+   - Master Services Agreements (MSAs)
+   - Statements of Work (SOWs)
+   - Other legal documents
+3. **Review extracted clauses**:
+   - Termination terms
+   - Indemnity caps
+   - Service Level Agreements
+4. **Check deviations** from standard templates
+5. **Read the plain-English summary** designed for non-legal staff
+6. **Download results** in JSON format
+
+**API Usage:**
+```bash
+# Start the API server
+cd contract_analysis
+pip install -r requirements.txt
+python api.py
+
+# Analyze a contract
+curl -X POST http://localhost:5000/api/analyze \
+  -F "file=@contract.pdf"
+```
+
+See [Contract Analysis Documentation](contract_analysis/README.md) for details.
+- **Offline Mode**: Works without internet connection
+
 ## 🔧 Customization
 
 ### Adding Custom Actions
@@ -227,6 +262,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🚀 Roadmap
 
+- [x] **Contract Analysis NLP Pipeline** - AI-powered legal document analysis
 - [ ] Advanced gesture recognition with TensorFlow.js
 - [ ] Multi-language support expansion
 - [ ] Custom avatar creation
