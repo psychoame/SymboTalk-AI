@@ -20,8 +20,10 @@ app = Flask(__name__)
 CORS(app)  # Enable CORS for frontend integration
 
 # Configuration
-UPLOAD_FOLDER = '/tmp/contract_uploads'
-RESULTS_FOLDER = '/tmp/contract_results'
+# Note: For production, use secure persistent storage with proper permissions
+# For development/testing, /tmp is acceptable
+UPLOAD_FOLDER = os.getenv('CONTRACT_UPLOAD_FOLDER', '/tmp/contract_uploads')
+RESULTS_FOLDER = os.getenv('CONTRACT_RESULTS_FOLDER', '/tmp/contract_results')
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 os.makedirs(RESULTS_FOLDER, exist_ok=True)
 

@@ -245,10 +245,13 @@ class TextPreprocessor:
         
         sections = {}
         
-        # Common section patterns
+        # Common section patterns (readable format)
+        article_pattern = r'(?:^|\n)(?:ARTICLE|SECTION|CLAUSE)\s+([IVXLCDM\d]+)[:\.]?\s+([^\n]+)'
+        numbered_pattern = r'(?:^|\n)(\d+\.(?:\d+\.?)*)\s+([^\n]+)'
+        
         section_patterns = [
-            r'(?:^|\n)(?:ARTICLE|SECTION|CLAUSE)\s+([IVXLCDM\d]+)[:\.]?\s+([^\n]+)',
-            r'(?:^|\n)(\d+\.(?:\d+\.?)*)\s+([^\n]+)',
+            article_pattern,
+            numbered_pattern,
         ]
         
         for pattern in section_patterns:

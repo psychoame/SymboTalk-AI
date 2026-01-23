@@ -526,7 +526,6 @@ class ContractAnalyzer:
         ground_truth_clauses: List[Clause]
     ) -> Dict[str, float]:
         """Evaluate extraction performance against ground truth"""
-        from sklearn.metrics import precision_recall_fscore_support
         
         # Create binary labels for each position in text
         # This is a simplified evaluation - real implementation would be more sophisticated
