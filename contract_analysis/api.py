@@ -344,4 +344,12 @@ if __name__ == '__main__':
     print("Starting Contract Analysis API...")
     print(f"Upload folder: {UPLOAD_FOLDER}")
     print(f"Results folder: {RESULTS_FOLDER}")
-    app.run(host='0.0.0.0', port=5000, debug=True)
+    
+    # Security: Debug mode should only be enabled in development
+    # Set DEBUG=1 environment variable to enable debug mode
+    debug_mode = os.getenv('DEBUG', '0') == '1'
+    
+    if debug_mode:
+        print("⚠️  WARNING: Running in DEBUG mode - do not use in production!")
+    
+    app.run(host='0.0.0.0', port=5000, debug=debug_mode)
